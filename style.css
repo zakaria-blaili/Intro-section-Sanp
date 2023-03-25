@@ -1,0 +1,98 @@
+* {
+    font-family: "Epilogue", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.NavBar {
+    position:sticky;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 100;
+    display: flex;
+}
+
+.NavBarLink {
+    color: hsl(0, 0%, 41%);
+    margin-left: 25px;
+}
+
+.NavBarLinkD {
+    margin-right: 5px;
+    color: hsl(0, 0%, 41%);
+
+}
+
+.leftNav {
+    left: 20px;
+    display: flex;
+}
+
+.rightNav {
+    right: 20px;
+    position: absolute;
+}
+
+.rightNav>a {
+    margin-right: 10px;
+    color: hsl(0, 0%, 41%);
+}
+
+.registre {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1.5px;
+    border-color: hsl(0, 0%, 41%);
+    border-style: solid;
+    border-radius: 12px;
+}
+
+.heroSImg {
+    padding-top: 20px;
+    right: 90px;
+    height: 510px;
+    width: 370px;
+    position: absolute;
+}
+.heroLeft{
+    display: flex;
+}
+.subHeroLeft{
+    left: 220px; position: absolute;padding-top: 90px;
+}
+.heroTitle{
+    font-size: 64px;font-weight: bold;  
+}
+.heroText{
+    width: 370px; color: hsl(0, 0%, 41%);
+    padding-bottom:50px ;
+}
+.learnMore{
+    color: white;
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 12px;
+    margin-left:15px ;
+}
+.logos{
+    margin-top: 45px;
+    display: flex;
+}
+.logos > img{
+    height: 25px;
+    width: 60px;
+    padding: 15px;
+    margin-right: 20px;
+}
